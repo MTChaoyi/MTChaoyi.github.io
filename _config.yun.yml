@@ -143,3 +143,11 @@ say:
   hitokoto:
     enable: true
     api: https://v1.hitokoto.cn
+
+engine_search:
+  enable: false
+
+# search
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
