@@ -1,0 +1,145 @@
+avatar:
+  enable: true
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+    emoji: 😭
+    message: 不想上学
+
+favicon: /favicon.ico
+
+social:
+  - name: GitHub
+    link: https://github.com/MTChaoyi
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: MTChaoyi@outlook.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/487332642
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: Telegram
+    link: https://t.me/MTChaoyi
+    icon: icon-telegram-line
+    color: "#0088CC"
+
+banner:
+  enable: true
+  title: 梦天の小站
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+# 可选 light | dark | auto | time
+mode: auto
+
+bg_image:
+  enable: true
+  url: /images/background.jpg
+  # dark:
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+search:
+  modal: true
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+  # dark_bg_image: xxx
+  # placeholder:
+
+trianglify:
+  enable: false
+  cellSize: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: false
+    amount: 20
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+pages:
+
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，咱没写啥目录
+  collapse: false
+
+codeblock:
+  copy_btn: true
+
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: false
+
+lazyload:
+  enable: true
+
+footer:
+  since: 2022
+  powered:
+    enable: true
+  live_time:
+    enable: false
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2022-03-16T00:00:00"
+
+mourn:
+  enable: true
+  days:
+    - "4-4"
+
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
