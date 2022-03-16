@@ -45,7 +45,7 @@ mode: auto
 
 bg_image:
   enable: true
-  url: https://i0.hdslb.com/bfs/album/78acf638935cbeadb8128e9fe825551a1483896c.jpg
+  url: /images/background.jpg
   # dark:
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
@@ -89,8 +89,8 @@ menu:
     #   icon: icon-cloud-line
     #   count: 你猜
   custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
+    title: 导航
+    path: https://MTChaoyi.top/Navigation
     icon: icon-settings-line
 
 pages:
@@ -151,3 +151,8 @@ engine_search:
 # https://github.com/wzpan/hexo-generator-search
 local_search:
   enable: true
+
+wordcount:
+  enable: true
+  count: true
+  time: true
