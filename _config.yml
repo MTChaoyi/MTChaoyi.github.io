@@ -99,36 +99,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yun
 
-live2d:
-  enable: true
-  # 推荐使用 jsdelivr 的 CDN 来加载
-  scriptFrom: jsdelivr
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    # 推荐使用 CDN 来加载模型
-    use: live2d-widget-model-miku
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
-  react:
-    opacity: 0.7
-  dialog:
-    # 是否开启对话框
-    enable: true
-    # 是否使用一言
-    hitokoto: true
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: https://github.com/MTChaoyi/MTChaoyi.github.io.git # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: main # 默认使用 master 分支
-  message: 2022/3/17 00:30 # 你可以自定义此次部署更新的说明
+  message: 2022/3/17 01:10 # 你可以自定义此次部署更新的说明
