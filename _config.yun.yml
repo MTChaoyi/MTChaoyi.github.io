@@ -45,7 +45,7 @@ mode: auto
 
 bg_image:
   enable: true
-  url: /images/background.jpg
+  url: https://i0.hdslb.com/bfs/album/78acf638935cbeadb8128e9fe825551a1483896c.jpg
   # dark:
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
