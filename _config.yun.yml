@@ -157,6 +157,9 @@ wordcount:
   count: true
   time: true
 
+wordcloud:
+  enable: true
+
 cdn:
   pre: ""  # https://cdn.jsdelivr.net/gh/MTChaoyi/MTChaoyi.github.io@latest
   css:
