@@ -4,7 +4,7 @@
 
 # Site
 title: 梦天の小站
-subtitle: ''
+subtitle: '一个普普通通的博客'
 description: '一个普普通通的博客'
 keywords: 梦天 博客
 author: MTChaoyi
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/MTChaoyi/MTChaoyi.github.io.git # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: main # 默认使用 master 分支
-  message: 2022/3/17 01:10 # 你可以自定义此次部署更新的说明
+  message: 2022/4/6 18:44 # 你可以自定义此次部署更新的说明
