@@ -1,0 +1,32 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: 自动部署到pages
+
+on:
+  push:
+    branches: [ "main" ]
+    paths-ignore:
+      - 'README**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+    - run: yarn install
+    - run: yarn build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        publish_dir: ./dist
+        github_token: ${{ secrets.HOME }}
+        user_name: ${{ secrets.MY_USER_NAME }}
+        user_email: ${{ secrets.MY_USER_EMAIL }}
+        commit_message: actions自动部署
