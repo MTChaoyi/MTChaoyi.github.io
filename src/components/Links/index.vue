@@ -71,6 +71,7 @@ const store = mainStore();
 // 网站链接图标
 const siteIcon = {
   Blog,
+  Keyboard,
   Cloud,
   CompactDisc,
   Compass,
