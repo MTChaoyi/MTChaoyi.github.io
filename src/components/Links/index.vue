@@ -51,6 +51,7 @@ import { Icon } from "@vicons/utils";
 import {
   Link,
   Blog,
+  Keyboard,
   CompactDisc,
   Cloud,
   Compass,
